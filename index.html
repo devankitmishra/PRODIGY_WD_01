@@ -4,55 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PRODIGY INFOTECH</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      height:1000px;
-    }
-
-    #navbar {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: #333;
-      padding: 10px 0;
-      text-align: center;
-      z-index: 1000;
-      transition: background-color 0.3s ease-in-out;
-    }
-
-    #navbar a {
-      text-decoration: none;
-      color: #fff;
-      padding: 14px 16px;
-      display: inline-block;
-      transition: color 0.3s ease-in-out;
-    }
-
-    #navbar a:hover {
-      color: #ffd700; 
-    }
-
-    #section-01,
-    #section-02,
-    #section-03 {
-      padding: 80px 0;
-      text-align: center;
-    }
-
-    #section-01 {
-      background-color: #f0f0f0;
-    }
-
-    #section-02 {
-      background-color: #e6e6e6;
-    }
-
-    #section-03 {
-      background-color: #f0f0f0;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="navbar">
@@ -63,15 +15,6 @@
     <a href="#section-05">Responsive Landing Page</a>
   </div>
 
-  <script>
-    window.onscroll = function() {
-      var navbar = document.getElementById('navbar');
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        navbar.style.backgroundColor = '#555'; 
-      } else {
-        navbar.style.backgroundColor = '#333'; 
-      }
-    };
-  </script>
+  <script src="./script.js"></script>
 </body>
 </html>
